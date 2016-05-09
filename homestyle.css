@@ -1,0 +1,45 @@
+body {
+  padding: 40px;
+  margin: 0;
+  background: #fff;
+
+  padding-bottom: 30px;
+  font-size: 30px;
+  word-spacing: 30px;
+  letter-spacing: 3px;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+}
+
+#title {
+  padding-bottom: 30;
+}
+
+#jake {
+  color: #aaa;
+  font-size: 30px;
+  word-spacing: 0px;
+}
+
+#links, a {
+  font-size: 17px;
+  color: #ccc;
+  text-decoration: none;
+}
+
+#jake:hover {
+    color: #777;
+}
+a:hover {
+  color: #999;
+}
+
+#f {
+  position: absolute;
+  right: 40px;
+}
+
+#sites {
+  position: absolute;
+  right: 75px;
+}

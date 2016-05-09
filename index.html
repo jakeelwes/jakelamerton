@@ -1,0 +1,66 @@
+<html>
+<head>
+  <title>Jake Lamerton</title>
+  <script language="javascript" type="text/javascript" src="js/jquery.min.js"></script>
+  <link rel="stylesheet" media="screen" href="homestyle.css" />
+
+<!-- google-analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-40831263-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+  <script type='text/javascript' src='unitegallery/dist/js/unitegallery.min.js'></script>
+  <link rel='stylesheet' href='unitegallery/dist/css/unite-gallery.css' type='text/css' />
+  <script type='text/javascript' src='unitegallery/dist/themes/tiles/ug-theme-tiles.js'></script>
+  <link rel='stylesheet' href='unitegallery/dist/themes/default/ug-theme-default.css' type='text/css' />
+
+</head>
+
+<body>
+  <div id="title"> <a id='jake' href='index.html'>Jake Lamerton</a>
+
+    <!-- <img src=images/social/v.svg style="height: 25px;"></img>
+    <img src=images/social/y.svg style="height: 25px;"></img> -->
+    <span id="about">
+      <a id='about' href='about.html'>Sites</a>
+    </span>
+    <span id="contact">
+        <a id='contact' href='contact.html'>Contact</a>
+      </span>
+
+</div>
+
+
+  <div id="gallery" style="display:none;">
+
+    <img alt="At least we're ok - 2015" src="images/leastWereOk.jpg" data-image="images/leastWereOk.jpg" data-description="At least we're ok 2015" />
+
+  </div>
+
+
+  <script type="text/javascript">
+  $(window).load(function ()
+    {
+    var i = setInterval(function ()
+    {
+        if ($('#gallery').length)
+        {
+            clearInterval(i);
+            jQuery("#gallery").unitegallery({
+              tiles_justified_row_height: 170,
+              tiles_justified_space_between: 6,
+              tiles_type:"justified" //justified nested or columns
+            });
+        }
+    }, 100);
+});
+</script>
+</body>
+</html>
