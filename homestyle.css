@@ -4,9 +4,9 @@ body {
   background: #fff;
 
   padding-bottom: 30px;
-  font-size: 30px;
+  font-size: 25px;
   word-spacing: 30px;
-  letter-spacing: 3px;
+  letter-spacing: 6px;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
 }
@@ -17,7 +17,7 @@ body {
 
 #jake {
   color: #aaa;
-  font-size: 30px;
+  font-size: 25px;
   word-spacing: 0px;
 }
 
