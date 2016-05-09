@@ -43,3 +43,9 @@ a:hover {
   position: absolute;
   right: 75px;
 }
+
+.ug-lightbox-top-panel, .ug-textpanel {
+    word-spacing: 0px;
+    letter-spacing: 0px;
+
+}
