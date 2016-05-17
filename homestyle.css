@@ -49,3 +49,9 @@ a:hover {
     letter-spacing: 0px;
 
 }
+
+p {
+  word-spacing: 0px;
+  text-align: center;
+  font-size: 19px;
+}
