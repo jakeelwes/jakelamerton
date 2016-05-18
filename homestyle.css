@@ -55,3 +55,23 @@ p {
   text-align: center;
   font-size: 19px;
 }
+
+#bio {
+      word-wrap: break-word;      /* IE 5.5-7 */
+      white-space: -moz-pre-wrap; /* Firefox 1.0-2.0 */
+      white-space: pre-wrap;      /* current browsers */
+      word-spacing: 0px;
+      letter-spacing: 2px;
+      font-size: 18px;
+      padding-left: 40px;
+      color: #666;
+}
+h2 {
+  font-size: 22px;
+  -webkit-margin-before: 0.53em;
+  -webkit-margin-after: 0em;
+  font-weight: normal;
+  font-family: "adobe-caslon-pro";
+  font-style: italic;
+  text-transform: capitalize;
+}
