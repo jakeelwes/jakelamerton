@@ -6,7 +6,7 @@ body {
   padding-bottom: 30px;
   font-size: 25px;
   word-spacing: 30px;
-  letter-spacing: 6px;
+  /* letter-spacing: 6px; */
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
 }
@@ -52,7 +52,7 @@ a:hover {
 
 p {
   word-spacing: 0px;
-  text-align: center;
+  /* text-align: center; */
   font-size: 19px;
 }
 
@@ -65,14 +65,14 @@ p {
       font-size: 18px;
       padding-left: 40px;
       color: #666;
-      text-align: center;
+      /* text-align: center; */
 }
 h2 {
   font-size: 22px;
   -webkit-margin-before: 0.53em;
   -webkit-margin-after: 0em;
   font-weight: normal;
-  font-family: "adobe-caslon-pro";
-  font-style: italic;
+  /* font-family: "adobe-caslon-pro"; */
+  /* font-style: italic; */
   text-transform: capitalize;
 }
