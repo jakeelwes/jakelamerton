@@ -1,0 +1,129 @@
+<html>
+<head>
+  <title>Jake Lamerton</title>
+  <script language="javascript" type="text/javascript" src="js/jquery.min.js"></script>
+  <link rel="stylesheet" media="screen" href="homestyle.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
+
+  <script type='text/javascript' src='unitegallery/dist/js/unitegallery.min.js'></script>
+  <link rel='stylesheet' href='unitegallery/dist/css/unite-gallery.css' type='text/css' />
+  <script type='text/javascript' src='unitegallery/dist/themes/tiles/ug-theme-tiles.js'></script>
+  <script type='text/javascript' src='unitegallery/dist/themes/slider/ug-theme-slider.js'></script>
+  <link rel='stylesheet' href='unitegallery/dist/themes/default/ug-theme-default.css' type='text/css' />
+
+  <link href="includes/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+
+  <head>
+<meta name="description" content="Jake Lamerton is a UK based figurative painter.">
+</head>
+
+</head>
+
+<body>
+  <div id="title"> <a id='jake' href='index.html'>Jake Lamerton</a>
+
+    <span id="paintings">
+      <a id='about' href='index.html'>Paintings</a>
+    </span>
+
+    <span id="drawings">
+      <a id='about' href='drawings.html'>Drawings</a>
+    </span>
+
+    <span id="portraits">
+      <a id='about' href='portraits.html'>Portraits</a>
+    </span>
+
+
+    <span id="about">
+      <a id='about' href='about.html'>About</a>
+    </span>
+
+    <a target="_blank" href="mailto:inxfo@jakxelamexrtonx.coxm?Subject=Contact" onmouseover="this.href=this.href.replace(/x/g,'');" target="_top" class="btn-social btn-outline"><i class="fa fa-fw fa-envelope-o"></i></a></li>
+
+</div>
+
+
+  <div id="gallery" style="display:none;">
+
+
+<!-- Untitled, 2018.JPG
+Niche, 2017.JPG
+Trim, 2017.JPG
+Bundle, 2017.JPG
+Camouflage, 2017,.JPG
+Haunted House, 2017.JPG
+Untitled, 2017.JPG
+JakeLamerton01.jpg
+Illustration for Jeremy Bentham Cookbook, 2016.jpg
+Bentham's Bread, 2016.jpg
+Bentham's Pie, 2016.jpg
+Bentham's Sausages, 2016.jpg -->
+
+    <img alt="Untitled, 2018" src="images/thumbs/drawings/Untitled, 2018.JPG" data-image="images/full/drawings/Untitled, 2018.JPG" data-description="Jake Lamerton, drawing, Untitled, 2018" />
+    <img alt="Niche, 2017" src="images/thumbs/drawings/Niche, 2017.JPG" data-image="images/full/drawings/Niche, 2017.JPG" data-description="Jake Lamerton, drawing, Niche, 2017" />
+    <img alt="Trim, 2017" src="images/thumbs/drawings/Trim, 2017.JPG" data-image="images/full/drawings/Trim, 2017.JPG" data-description="Jake Lamerton, drawing, Trim, 2017" />
+    <img alt="Bundle, 2017" src="images/thumbs/drawings/Bundle, 2017.JPG" data-image="images/full/drawings/Bundle, 2017.JPG" data-description="Jake Lamerton, drawing, Bundle, 2017" />
+    <img alt="Camouflage, 2017," src="images/thumbs/drawings/Camouflage, 2017,.JPG" data-image="images/full/drawings/Camouflage, 2017,.JPG" data-description="Jake Lamerton, drawing, Camouflage, 2017," />
+    <img alt="Haunted House, 2017" src="images/thumbs/drawings/Haunted House, 2017.JPG" data-image="images/full/drawings/Haunted House, 2017.JPG" data-description="Jake Lamerton, drawing, Haunted House, 2017" />
+    <img alt="Untitled, 2017" src="images/thumbs/drawings/Untitled, 2017.JPG" data-image="images/full/drawings/Untitled, 2017.JPG" data-description="Jake Lamerton, drawing, Untitled, 2017" />
+    <img alt="Model Family, 2015" src="images/thumbs/drawings/JakeLamerton01.jpg" data-image="images/full/drawings/JakeLamerton01.jpg" data-description="Jake Lamerton, drawing, Model Family, 2015" />
+    <img alt="Illustration for Jeremy Bentham Cookbook, 2016" src="images/thumbs/drawings/Illustration for Jeremy Bentham Cookbook, 2016.jpg" data-image="images/full/drawings/Illustration for Jeremy Bentham Cookbook, 2016.jpg" data-description="Jake Lamerton, drawing, Illustration for Jeremy Bentham Cookbook, 2016" />
+    <img alt="Benthams Bread, 2016" src="images/thumbs/drawings/Benthams Bread, 2016.jpg" data-image="images/full/drawings/Bentham's Bread, 2016.jpg" data-description="Jake Lamerton, drawing, Bentham's Bread, 2016" />
+    <img alt="Benthams Pie, 2016" src="images/thumbs/drawings/Benthams Pie, 2016.jpg" data-image="images/full/drawings/Bentham's Pie, 2016.jpg" data-description="Jake Lamerton, drawing, Bentham's Pie, 2016" />
+    <img alt="Benthams Sausages, 2016" src="images/thumbs/drawings/Benthams Sausages, 2016.jpg" data-image="images/full/drawings/Bentham's Sausages, 2016.jpg" data-description="Jake Lamerton, drawing, Bentham's Sausages, 2016" />
+
+
+  </div>
+
+
+  <script type="text/javascript">
+  $(window).load(function ()
+    {
+    var i = setInterval(function ()
+    {
+        if ($('#gallery').length)
+        {
+            clearInterval(i);
+            jQuery("#gallery").unitegallery({
+              tiles_justified_row_height: 220,
+              tiles_type:"justified", //justified nested or columns
+              tile_enable_shadow:false,
+              tile_enable_border:false,
+              // tiles_space_between_cols:25,
+              tiles_justified_space_between:25,
+              tiles_col_width:235,
+              tile_border_color: "#ffffff",
+              tile_enable_outline:true,
+              title_outline_color: "#aaaaaa",
+
+              tile_enable_textpanel:true,
+              tiles_enable_transition: false,
+
+              tile_textpanel_title_font_size:12,	 //textpanel title font size. if null - take from css
+	tile_textpanel_title_bold:false,
+
+  lightbox_overlay_color:"#ffffff",					//the color of the overlay. if null - will take from css
+lightbox_top_panel_opacity: 0,
+
+lightbox_textpanel_desc_color:"#777",
+lightbox_textpanel_title_color:"#777",
+lightbox_numbers_color: "#777",
+lightbox_textpanel_title_text_align:'center',
+              // gallery_theme: "slider",
+              // slider_scale_mode: "fit",
+              // gallery_autoplay:false,
+              // gallery_background_color: "#ffffff",
+
+            });
+        }
+    }, 100);
+});
+</script>
+</body>
+</html>
