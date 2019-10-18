@@ -52,7 +52,7 @@
 				<dict>
 					<key>fileNames</key>
 					<array>
-						<string>~/Dropbox/jakelamerton.com/images/full/paintings/New paintings</string>
+						<string>~/Dropbox/jakelamerton.com/images/#new</string>
 					</array>
 				</dict>
 				<key>BundleIdentifier</key>
@@ -102,8 +102,6 @@
 						<string>0</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
@@ -204,8 +202,6 @@
 						<string>0</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
@@ -326,8 +322,6 @@
 						<string>1</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
@@ -479,8 +473,6 @@
 						<string>3</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
@@ -601,8 +593,6 @@
 						<string>1</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
@@ -754,8 +744,6 @@
 						<string>3</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
@@ -769,40 +757,40 @@
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>1399A369-4274-4EA2-A3DB-E9A7040F7BB5</key>
-		<dict>
-			<key>from</key>
-			<string>0BC51A68-4F73-4A8F-8EDB-BAC5789DDD2D - 0BC51A68-4F73-4A8F-8EDB-BAC5789DDD2D</string>
-			<key>to</key>
-			<string>00A10FD9-09E6-4F45-96D4-AACF554C9502 - 00A10FD9-09E6-4F45-96D4-AACF554C9502</string>
-		</dict>
-		<key>1B77D096-001C-4D6C-8989-157259D6BA39</key>
+		<key>12D7F331-3C14-49F9-B371-2CBEB49C2DA8</key>
 		<dict>
 			<key>from</key>
 			<string>8564C875-110B-429A-8263-07B81E413596 - 8564C875-110B-429A-8263-07B81E413596</string>
 			<key>to</key>
 			<string>098FAA9C-E23D-462B-B3DD-DF1F6F9DFD18 - 098FAA9C-E23D-462B-B3DD-DF1F6F9DFD18</string>
 		</dict>
-		<key>283EB010-0E85-4CDE-915D-CA4384F870F6</key>
+		<key>48E634D8-E8C0-476E-9BA9-9E5DFF91DD29</key>
 		<dict>
 			<key>from</key>
 			<string>098FAA9C-E23D-462B-B3DD-DF1F6F9DFD18 - 098FAA9C-E23D-462B-B3DD-DF1F6F9DFD18</string>
 			<key>to</key>
 			<string>F2151187-012B-441D-A7C4-A4C7E338577B - F2151187-012B-441D-A7C4-A4C7E338577B</string>
 		</dict>
-		<key>647A31B3-CC7A-43EB-B9C2-0B1385059B75</key>
+		<key>611FA526-0DA1-4738-95FD-21425496BE20</key>
+		<dict>
+			<key>from</key>
+			<string>F7EF0F0C-13CA-4AF0-9CEC-B691AC1FFB1F - F7EF0F0C-13CA-4AF0-9CEC-B691AC1FFB1F</string>
+			<key>to</key>
+			<string>0BC51A68-4F73-4A8F-8EDB-BAC5789DDD2D - 0BC51A68-4F73-4A8F-8EDB-BAC5789DDD2D</string>
+		</dict>
+		<key>D34F2897-AC90-42D6-A189-6930E8B44BCA</key>
 		<dict>
 			<key>from</key>
 			<string>F2151187-012B-441D-A7C4-A4C7E338577B - F2151187-012B-441D-A7C4-A4C7E338577B</string>
 			<key>to</key>
 			<string>F7EF0F0C-13CA-4AF0-9CEC-B691AC1FFB1F - F7EF0F0C-13CA-4AF0-9CEC-B691AC1FFB1F</string>
 		</dict>
-		<key>A0C6F294-045C-41E7-B939-6D85C187E0FF</key>
+		<key>D764F095-19B8-4B64-9677-B68EE2EBC769</key>
 		<dict>
 			<key>from</key>
-			<string>F7EF0F0C-13CA-4AF0-9CEC-B691AC1FFB1F - F7EF0F0C-13CA-4AF0-9CEC-B691AC1FFB1F</string>
-			<key>to</key>
 			<string>0BC51A68-4F73-4A8F-8EDB-BAC5789DDD2D - 0BC51A68-4F73-4A8F-8EDB-BAC5789DDD2D</string>
+			<key>to</key>
+			<string>00A10FD9-09E6-4F45-96D4-AACF554C9502 - 00A10FD9-09E6-4F45-96D4-AACF554C9502</string>
 		</dict>
 	</dict>
 	<key>workflowMetaData</key>
